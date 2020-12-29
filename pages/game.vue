@@ -42,7 +42,7 @@ export default {
     // On player choice
     click(choice){
       this.playerChoice = choice
-      this.index ++
+      this.index += 1
     },
     // On player choice, the CPU make his choice too
     cpuChoice(choice){
